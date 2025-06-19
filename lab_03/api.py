@@ -1,5 +1,6 @@
 from flask import Flask, request, jsonify
-from rsa_cipher import RSACipher   # sửa lại dòng import
+from cipher.rsa.rsa_cipher import RSACipher
+
 from cipher.ecc.ecc_cipher import ECCCipher
 
 
