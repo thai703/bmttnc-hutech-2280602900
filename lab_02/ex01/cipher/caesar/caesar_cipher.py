@@ -20,7 +20,7 @@ class CaesarCipher:
                 encrypted_text.append(letter)
         return "".join(encrypted_text)
 
-    def decrypt(self, text: str, key: int) -> str:  # Đổi tên từ decrypt_text thành decrypt
+    def decrypt(self, text: str, key: int) -> str:  
         alphabet_len = len(self.alphabet)
         text = text.upper()
         decrypted_text = []
